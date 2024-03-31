@@ -1,0 +1,1 @@
+'''Cri um algoritimo que leia um némero e mostre o seu dobro, seu triplo e a raiz quadrada.'''
