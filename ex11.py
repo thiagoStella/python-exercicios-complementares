@@ -3,7 +3,7 @@ lista_clientes = ['José', 'Pedro', 'Rafael', 'Amanda']
 while True:
     print('==============')
     print('1-Novo cliente')
-    print('Atender cliente')
+    print('2-Atender cliente')
     print('==============')
 
     opcao = int(input('Escolher ação: '))
@@ -17,7 +17,7 @@ while True:
         for cliente in lista_clientes:
             while True:
                 print('Atendendo ', cliente)
-                flag = int(input('Digite ZERO para encerrar o atendimento'))
+                flag = int(input('Digite ZERO para finalizar o atendiment: '))
                 print('Fila do Atendimento: ', lista_clientes)
                 if flag == 0:
                     del(lista_clientes[0])
