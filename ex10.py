@@ -15,3 +15,4 @@ if palindromo:
     print('A palavra é um palindromo')
 else:
     print('A palavra não é um palindromo')
+
