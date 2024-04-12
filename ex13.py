@@ -1,3 +1,4 @@
+'''Ler as notas e mostrar na tela, são nove turmas, cada um com 24 alunos e cada aluno faz 5 testes'''
 for i in range(1,10):
     print(f'Turma {i}')
     print('==========')
